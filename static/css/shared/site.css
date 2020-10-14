@@ -1,0 +1,47 @@
+body {
+    font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+}
+
+/*handles the form as an object*/
+.main_content {
+  background: #fff;
+  margin: 0px;
+  padding: 0px 0px 50px;
+  /*background-image:
+  url('https://leeboy-web.s3.amazonaws.com/media/images/As_Tough_and_Reli.2e16d0ba.fill-1800x1020.jpegquality-60.jpg');
+  */
+  background-color: #cccccc;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+/*handles the navigation bar*/
+nav {
+    background-color: rgb(80, 196, 241);
+    font-size: 40px;
+    color: white;
+    height:80px;
+
+}
+
+/*handles the text in the navigation bar*/
+nav > a {
+    color: azure;
+    margin-right: 20px;
+    font-size: 30px;
+    padding: 5px 15px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+.error-msg {
+    text-align: center;
+    color: #ed3507;
+    font-size: 17px;
+}
