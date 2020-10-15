@@ -11,7 +11,7 @@ app.secret_key = 'some secret key'
 
 def main():
     config()
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')
 
 
 def register_blueprints():

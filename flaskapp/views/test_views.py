@@ -7,7 +7,7 @@ blueprint = flask.Blueprint('index', __name__, template_folder='templates')
 
 # ################### INDEX #################################
 
-@blueprint.route('/home')
+@blueprint.route('/')
 @response(template_file='index.html')
 def index():
 
