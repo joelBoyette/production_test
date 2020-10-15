@@ -1,4 +1,9 @@
 import flask
+import os
+import sys
+
+folder = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.insert(0, folder)
 
 app = flask.Flask(__name__)
 app.secret_key = 'some secret key'
@@ -22,3 +27,5 @@ if __name__ == '__main__':
     main()
 else:
     config()
+
+
