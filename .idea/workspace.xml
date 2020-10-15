@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1908c078-d78d-48ae-ac09-348165e77b8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/production_text.nginx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/view_modifiers.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/infrastructure/view_modifiers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/myapp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production_db.accdb" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/production_db.accdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/query.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/services/query.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/shared/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/static/css/shared/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shared/_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/templates/shared/_layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/views/test_views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +26,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\joelb\Documents\Development\production_test\flaskapp" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -43,7 +57,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myapp.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\joelb\Documents\Development\production_test\flaskapp\myapp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />

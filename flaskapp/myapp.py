@@ -5,14 +5,20 @@ app.secret_key = 'some secret key'
 
 
 def main():
-    register_blueprints()
+    config()
     app.run(debug=True)
 
 
 def register_blueprints():
-    from views import test_views
+    from flaskapp.views import test_views
     app.register_blueprint(test_views.blueprint)
+
+
+def config():
+    register_blueprints()
 
 
 if __name__ == '__main__':
     main()
+else:
+    config()
