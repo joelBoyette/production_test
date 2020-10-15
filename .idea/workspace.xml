@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1908c078-d78d-48ae-ac09-348165e77b8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/production_text.nginx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/view_modifiers.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/infrastructure/view_modifiers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/myapp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production_db.accdb" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/production_db.accdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/query.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/services/query.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/shared/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/static/css/shared/site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/shared/_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/templates/shared/_layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/views/test_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +14,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1is8TemMSThBeKOvpnchvNyiQtF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
