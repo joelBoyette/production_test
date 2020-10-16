@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1908c078-d78d-48ae-ac09-348165e77b8f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/server/production_test.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskapp/production_db.accdb" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/production_db.accdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskapp/production_db.laccdb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/production_test.service" beforeDir="false" afterPath="$PROJECT_DIR$/server/production_test.service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/production_text.nginx" beforeDir="false" afterPath="$PROJECT_DIR$/server/production_text.nginx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +186,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -1,5 +1,5 @@
 [Unit]
-Description=uWSGI PyPI server instance
+Description=Test Flask App
 After=syslog.target
 
 [Service]
