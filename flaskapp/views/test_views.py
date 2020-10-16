@@ -1,6 +1,6 @@
 import flask
 from flaskapp.infrastructure.view_modifiers import response
-from flaskapp.services.query import get_data
+from flaskapp.services.query import find_person
 
 blueprint = flask.Blueprint('index', __name__, template_folder='templates')
 
@@ -11,9 +11,10 @@ blueprint = flask.Blueprint('index', __name__, template_folder='templates')
 @response(template_file='index.html')
 def index():
 
-    data = get_data()
-    data_dict = data.to_dict()
+    person = find_person('Joel')
 
-    return {'data': data_dict}
+    if person:
+        print(person.first_name)
+        return {'data': person.first_name}
 
-    # return {}
+    return {'data': ''}

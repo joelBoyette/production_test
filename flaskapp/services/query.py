@@ -1,25 +1,29 @@
-import pyodbc
+
 import pandas as pd
+from typing import Optional
+from flaskapp.data import db_session
+from flaskapp.data.person import Person
 
 
-def get_data():
+def find_person(first: str) -> Optional[Person]:
+    session = db_session.create_session()
+    return session.query(Person).filter(Person.first_name == first).first()
 
-    # CONNECT TO ACCESS DB
-    conn = pyodbc.connect(r'Driver={Microsoft Access Driver (*.mdb, *.accdb)};'
-                          'DBQ=/apps/app_repo/flaskapp/production_db.accdb'
-                          )
 
-    # BASE SQL
-    sql = f"""SELECT *
-              FROM person
-          """
-    # CONVERT SQL TO PANDAS
-    person_df = pd.read_sql(sql, conn)
+def create_person(first: str, last: str) -> Optional[Person]:
+    if find_person(first):
+        return None
 
-    return person_df
+    person = Person()
+    person.first_name = first
+    person.last_name = last
 
-test = get_data()
+    session = db_session.create_session()
+    session.add(person)
+    session.commit()
 
-print(get_data())
+    return person
+
+
 
 
