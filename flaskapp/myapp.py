@@ -2,10 +2,9 @@ import flask
 import os
 import sys
 
-import flaskapp.data.db_session as db_session
-
 folder = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 sys.path.insert(0, folder)
+import flaskapp.data.db_session as db_session
 
 app = flask.Flask(__name__)
 app.secret_key = 'some secret key'
