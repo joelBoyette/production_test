@@ -1,15 +1,16 @@
-[Unit]
-Description=Test Flask App
-After=syslog.target
+Description=uWSGI instance to serve flaskapp
+After=network.target
 
 [Service]
-ExecStart=/apps/venv/bin/uwsgi -H /apps/venv --master --processes 4 --threads 2 --http :5000 --manage-script-name --python-path /apps/app_repo --mount /=wsgi:app
-RuntimeDirectory=/apps/app_repo/
+User=jboyette
+Group=www-data
+WorkingDirectory=/home/jboyette/apps/app_repo
+Environment="PATH=/home/jboyette/apps/app_repo/venv/bin"
+ExecStart=/home/jboyette/flaskapp/apps/app_repo/sever/venv/bin/uwsgi --ini production_test.ini
 Restart=always
-KillSignal=SIGQUIT
-Type=notify
 StandardError=syslog
 NotifyAccess=all
+KillSignal=SIGQUIT
 
 [Install]
 WantedBy=multi-user.target

@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1908c078-d78d-48ae-ac09-348165e77b8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/production_test.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskapp/production_db.accdb" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/production_db.accdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskapp/production_db.laccdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/production_test.ini" beforeDir="false" afterPath="$PROJECT_DIR$/server/production_test.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/production_test.service" beforeDir="false" afterPath="$PROJECT_DIR$/server/production_test.service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/production_text.nginx" beforeDir="false" afterPath="$PROJECT_DIR$/server/production_text.nginx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -179,6 +176,14 @@
       <option name="presentableId" value="Default" />
       <updated>1602684947741</updated>
     </task>
+    <task id="LOCAL-00001" summary="added ini file">
+      <created>1602855073113</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602855073113</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,5 +198,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added ini file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added ini file" />
   </component>
 </project>
