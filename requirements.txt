@@ -2,3 +2,4 @@ werkzeug
 flask
 pyodbc
 pandas
+sqlalchemy

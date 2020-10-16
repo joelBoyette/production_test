@@ -2,6 +2,8 @@ import flask
 import os
 import sys
 
+import flaskapp.data.db_session as db_session
+
 folder = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 sys.path.insert(0, folder)
 
@@ -11,7 +13,16 @@ app.secret_key = 'some secret key'
 
 def main():
     config()
-    app.run(debug=True, host='0.0.0.0')
+    app.run(debug=True)
+
+
+def setup_db():
+    db_file = os.path.join(
+        os.path.dirname(__file__),
+        'db',
+        'production_test.sqlite').replace('\\', '/')
+
+    db_session.global_init(db_file)
 
 
 def register_blueprints():
@@ -21,6 +32,7 @@ def register_blueprints():
 
 def config():
     register_blueprints()
+    setup_db()
 
 
 if __name__ == '__main__':
