@@ -18,4 +18,8 @@ def get_data():
 
     return person_df
 
+test = get_data()
+
+print(get_data())
+
 

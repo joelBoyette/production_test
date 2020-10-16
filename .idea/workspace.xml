@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1908c078-d78d-48ae-ac09-348165e77b8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flaskapp/services/query.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/services/query.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskapp/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskapp/views/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/views/test_views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
