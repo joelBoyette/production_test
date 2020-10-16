@@ -4,9 +4,9 @@ After=network.target
 [Service]
 User=jboyette
 Group=www-data
-WorkingDirectory=/home/jboyette/apps/app_repo
-Environment="PATH=/home/jboyette/apps/app_repo/venv/bin"
-ExecStart=/home/jboyette/flaskapp/apps/app_repo/sever/venv/bin/uwsgi --ini production_test.ini
+WorkingDirectory=/apps/app_repo
+Environment="PATH=/apps/app_repo/venv/bin"
+ExecStart=/apps/app_repo/venv/bin/uwsgi --ini production_test.ini
 Restart=always
 StandardError=syslog
 NotifyAccess=all
